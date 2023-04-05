@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 80vh;
+            background-color: antiquewhite;
+        }
+
+        .container {
+            background-color: aqua;
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Click the button to see the date and time.</h1>
+        <button type="button" onclick="document.getElementById('date').innerHTML = Date()">DATE</button>
+        <p id="date"></p>
+    </div>
+</body>
+
+</html>
