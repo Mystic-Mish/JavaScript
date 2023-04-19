@@ -1,4 +1,4 @@
-//This program numbers divisible by three
+//This program displays numbers divisible by three
 function three(array) {
     return array.filter(function (a) {
         return !(a % 3);
